@@ -1,0 +1,74 @@
+.left-main-div {
+    width: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    overflow-y: auto;
+    height: 96.5vh;
+    background-color: #f0f2f5;
+    transition: 1s ease;
+  }
+  .left-main-div::-webkit-scrollbar{
+    width: 10px;
+    background-color:transparent;
+  } 
+  .left-main-div::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+  }
+  .left-main-div:hover::-webkit-scrollbar-thumb{
+    background-color: rgb(201, 201, 201);
+  }
+.list-itemes{
+   list-style: none;
+   cursor: pointer;
+   width: 328px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   /* background-color: rgb(245, 249, 250); */
+   background-color: #f0f2f5;
+   border-radius: 10px;
+   padding: 0px 8px 0px 8px;
+}
+.list-itemes:hover{
+    background-color: #dbdada;
+}
+.icons{
+    width: 40px;
+    padding-right: 10px;
+
+}
+.drop-button{
+    list-style: none;
+    color: red;
+    cursor: pointer;
+}
+.hr{
+    width: 328px;
+    height: 1.5px;
+    background-color: rgb(211, 209, 209);
+}
+.dropdow-icon-svg{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgb(228, 233, 238);
+}
+.dropdown-main-div{
+    display: flex;
+    align-items: center;
+    padding: 0px 8px 0px 8px;
+    width: 328px;
+   height: 52px;
+   border-radius: 10px;
+   background-color: #f0f2f5;
+
+}
+
+.dropdown-main-div:hover{
+    background-color: #dbdada;
+}
+.see-more-less{
+    color: black;
+    padding: 10px;
+}

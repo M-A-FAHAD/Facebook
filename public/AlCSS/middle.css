@@ -1,0 +1,20 @@
+.middle-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 37.5rem;
+    padding-top: 20px;
+    /* margin-left: 5rem; */
+    z-index: 4;
+}
+
+@media (max-width: 1000px){
+    .middle-main-div{
+        margin-left: 0rem;
+    }
+}
+@media (max-width: 600px){
+    .middle-main-div{
+        width: auto;
+    }
+}

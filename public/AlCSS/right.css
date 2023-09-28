@@ -1,0 +1,47 @@
+.right-main-div{
+    position: fixed;
+    overflow-y: auto;
+    width: 20%;
+    padding-top: 20px;
+}
+.group-cnv-div{
+    width: 12rem;
+}
+.group-cnv{
+    font: bold;
+    color: rgb(112, 111, 111);
+    font-size: 20px;
+}
+.create-new-group-div{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.create-new-group-div:hover{
+    cursor: pointer;
+    background-color: rgb(236, 235, 235);
+}
+.create-new-group-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(209, 208, 208);
+    margin: 0px 3px 0px 3px;
+    cursor: pointer;
+}
+.new-group-icon{
+    width: 10px;
+    height: 10px;
+}
+.create-new-group{
+    width: 10rem;
+    font-size: 15px;
+    padding-left: 5px;
+
+}
